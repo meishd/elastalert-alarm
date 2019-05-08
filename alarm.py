@@ -30,10 +30,9 @@ class Alarm():
         self.rule['num_events'] = self.args.num_events
         self.rule['timeframe'] = self.args.timeframe
         self.rule['reqtime_gt'] = self.args.reqtime_gt
-        if re.match('freq-status-501', self.rule['rulename']):
-            self.rule['domain'], self.rule['status']=self.rule['domain'].split('-')[0], self.rule['domain'].split('-')[1]
         if re.match('freq-status-500', self.rule['rulename']):
-            self.rule['status']='500'
+            self.rule['domain'], self.rule['status']=self.rule['domain'].split('-')[0], self.rule['domain'].split('-')[1]
+
 
     def start(self):
         alert = Alert(self.rule)
