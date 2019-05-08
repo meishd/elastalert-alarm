@@ -1,0 +1,14 @@
+aliyun-python-sdk-core>=2.13.4
+certifi>=2018.11.29
+chardet>=3.0.4
+DingtalkChatbot>=1.3.0
+elasticsearch>=6.3.1
+idna>=2.8
+jmespath>=0.9.4
+PySocks>=1.6.8
+PyStaticConfiguration>=0.10.4
+PyYAML>=3.13
+requests>=2.21.0
+six>=1.12.0
+urllib3>=1.24.1
+win-inet-pton>=1.1.0
