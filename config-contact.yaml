@@ -1,0 +1,25 @@
+yunwei:
+  member:
+    zhangshan:
+      phone: 15895820001
+      mail: zhangshan@sina.com
+    lisi:
+      phone: 15895820002
+      mail: lisi@sina.com
+  dingtoken:
+    e802cb4b5791bb08e1bc79cfd62c0a6bae4b77e8758b4b52522d5119478f1234
+project1:
+  member:
+    zhouwu:
+      phone: 15895820003
+      mail: zhouwu@sina.com
+    wangliu:
+      phone: 15895820004
+      mail: wangliu@sina.com
+  dingtoken:
+    0a30c27cbb9bb17e5dbcb721578b7a6a490810c2fc237e1af5a1289557d31234
+project2:
+  member:
+    liudehua:
+      phone: 15895820005
+      mail: liudehua@17of.com
